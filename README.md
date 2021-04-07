@@ -14,3 +14,7 @@
 
  - ### Now Create the inedx.js file as shown below.
   ![Indexjs](https://user-images.githubusercontent.com/76589507/113831847-ab0bb000-97a5-11eb-9f75-113b9504c43d.PNG)
+
+### Onto the Requests part create a Requests.rest file as shown below.
+You can use the extension `Rest Client` in VsCode or you can also use `Postman`, both are great but in this project I am using the entension.
+![RequsetsRest](https://user-images.githubusercontent.com/76589507/113832525-5288e280-97a6-11eb-9109-14458854f6db.PNG)
