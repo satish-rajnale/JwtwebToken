@@ -45,10 +45,7 @@ You can use the extension `Rest Client` in VsCode or you can also use `Postman`,
   ![PostRefreshToken](https://user-images.githubusercontent.com/76589507/113834313-51f14b80-97a8-11eb-89bc-12372ae35445.PNG)
 
  7. Now to delete the generated JWT token and logout the user use the `DELETE` request.
- 
- ![Delete](https://user-images.githubusercontent.com/76589507/113834785-d9d75580-97a8-11eb-9db2-1c54abd8d7e5.PNG)
-
--response for the `DELETE` request.
+![Delete](https://user-images.githubusercontent.com/76589507/113834785-d9d75580-97a8-11eb-9db2-1c54abd8d7e5.PNG)
 ![TokenDeleted](https://user-images.githubusercontent.com/76589507/113834891-f5426080-97a8-11eb-8650-b600bfaf8bba.PNG)
 
 
