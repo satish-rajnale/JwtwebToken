@@ -29,19 +29,26 @@ You can use the extension `Rest Client` in VsCode or you can also use `Postman`,
  
  ![getUser](https://user-images.githubusercontent.com/76589507/113833458-4f422680-97a7-11eb-98f0-7d8d9a6e4137.PNG)
  
-4. Copy the refreshToken and paste it in your `Post` request for token.PORT:4000
+ 4. Copy the refreshToken and paste it in your `Post` request for token.PORT:4000
 
-![PostRefresh](https://user-images.githubusercontent.com/76589507/113833515-65e87d80-97a7-11eb-8e76-ad3bb49915de.PNG)
+ ![PostRefresh](https://user-images.githubusercontent.com/76589507/113833515-65e87d80-97a7-11eb-8e76-ad3bb49915de.PNG)
 
-5. When sent a request from `GET` method you will get the following response.
+ 5. When sent a request from `GET` method you will get the following response.
  ###NOTE:
  There is a TimeLimit added and within that time limit you have to make the get request.
  For your convenience you can extend the time limit through your authuser.js code.
  
- ![Response](https://user-images.githubusercontent.com/76589507/113834011-f1620e80-97a7-11eb-82d2-bd4783220aaa.PNG)
+  ![Response](https://user-images.githubusercontent.com/76589507/113834011-f1620e80-97a7-11eb-82d2-bd4783220aaa.PNG)
 
-6. When you send the `POST` request for token it generates the following access token which you can copy and paste in the `GET` request. This will extend the user access/auth time. Basically you get access again.
+ 6. When you send the `POST` request for token it generates the following access token which you can copy and paste in the `GET` request. This will extend the user access/auth time. Basically you get access again.
 
-![PostRefreshToken](https://user-images.githubusercontent.com/76589507/113834313-51f14b80-97a8-11eb-89bc-12372ae35445.PNG)
+  ![PostRefreshToken](https://user-images.githubusercontent.com/76589507/113834313-51f14b80-97a8-11eb-89bc-12372ae35445.PNG)
 
+ 7. Now to delete the generated JWT token and logout the user use the `DELETE` request.
  
+ ![Delete](https://user-images.githubusercontent.com/76589507/113834785-d9d75580-97a8-11eb-9db2-1c54abd8d7e5.PNG)
+
+-response for the `DELETE` request.
+![TokenDeleted](https://user-images.githubusercontent.com/76589507/113834891-f5426080-97a8-11eb-8650-b600bfaf8bba.PNG)
+
+
