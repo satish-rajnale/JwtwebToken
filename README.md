@@ -8,3 +8,6 @@
 
  2. Then add these tokens in your .env file as ACCESS_TOKEN_PATH & REFRESH_TOKEN_PATH.
  ![dotenv](https://user-images.githubusercontent.com/76589507/113831448-40f30b00-97a5-11eb-800a-45dc8f1aa073.PNG)
+
+### Now Create the authUser file as shown below.
+![AuthUserjs](https://user-images.githubusercontent.com/76589507/113831623-70a21300-97a5-11eb-80e5-cd50fbd93f68.PNG)
