@@ -3,5 +3,8 @@
  This project describes the steps involed in a authentication process between client & server using JWT tokens.
 
 ### First you need to generate some tokens 
-It's very easy just enter **node** and then the code in below image.
+ 1. It's very easy just enter **node** and then the code in below image.
 ![generateTokens](https://user-images.githubusercontent.com/76589507/113830479-4865e480-97a4-11eb-8c28-64451f35146e.PNG)
+
+ 2. Then add these tokens in your .env file as ACCESS_TOKEN_PATH & REFRESH_TOKEN_PATH.
+ ![dotenv](https://user-images.githubusercontent.com/76589507/113831448-40f30b00-97a5-11eb-800a-45dc8f1aa073.PNG)
